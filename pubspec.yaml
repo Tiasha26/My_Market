@@ -1,0 +1,47 @@
+name: my_market
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  floating_bottom_navigation_bar: ^1.5.2
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.4
+  firebase_auth: ^4.7.2
+  firebase_storage: ^11.2.5
+  change_app_package_name: ^1.1.0
+  font_awesome_flutter: ^10.5.0
+  image_picker: ^1.0.4
+  provider: ^6.1.2
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - images/
+
+  fonts:
+    - family: Merriweather
+      fonts:
+        - asset: fonts/Merriweather-Regular.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+
+    - family: NotoSans
+      fonts:
+        - asset: fonts/NotoSans-Regular.ttf
+

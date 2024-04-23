@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "419508439809",
+    "project_id": "my-market-b8b17",
+    "storage_bucket": "my-market-b8b17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419508439809:android:82f36b0c67c2be04846900",
+        "android_client_info": {
+          "package_name": "com.theCITC.my_market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419508439809-5bmmfgo52ng1e2qhm956flh9asnogrvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvTMUw4lWmIbLZDrNXHr5LvhY1ubfemrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419508439809-5bmmfgo52ng1e2qhm956flh9asnogrvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "419508439809-1jk21k8t865mnp48rlaqs8r5filsvu5l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myMarket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

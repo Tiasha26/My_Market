@@ -39,15 +39,20 @@ class _MobScreenLayoutState extends State<MobScreenLayout> {
           onTap: _navigateBottomBar,
           items: const [
             BottomNavigationBarItem(
-                icon: Icon(Icons.home_rounded), label: 'Home'),
+                icon: Icon(Icons.home_rounded),
+                label: 'Home'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.monetization_on), label: 'Donate'),
+                icon: Icon(Icons.monetization_on),
+                label: 'Donate'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.newspaper_rounded), label: 'News'),
+                icon: Icon(Icons.newspaper_rounded),
+                label: 'News'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.groups), label: 'Customers'),
+                icon: Icon(Icons.groups),
+                label: 'Customers'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.account_circle), label: 'Profile')
+                icon: Icon(Icons.account_circle),
+                label: 'Profile')
           ],
           selectedItemColor: Color(0xFF235381),
           unselectedItemColor: Color(0xFF95D6A4),

@@ -181,15 +181,7 @@ class _SignUPState extends State<SignUP> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(50),
                   child: TextButton(
-                      onPressed: () async {
-                        String res = await AuthMethods().signUpUser(
-                            email: _emailController.text,
-                            password: _passwordController.text,
-                            username: _usernameController.text,
-                            file: _image!,
-                            bio: 'bio');
-
-                      },
+                      onPressed: signUpUser,
                       style: TextButton.styleFrom(
                         backgroundColor: Color(0xFF95D6A4),
                         minimumSize: Size(177, 53),
@@ -205,7 +197,7 @@ class _SignUPState extends State<SignUP> {
                             fontWeight: FontWeight.bold,
                             decoration: TextDecoration.none),
                       ) : const CircularProgressIndicator(
-                        color: Colors.white,
+                        color: Colors.black,
                       ),
                   ),
                 ),

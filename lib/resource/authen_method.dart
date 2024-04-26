@@ -30,7 +30,7 @@ class AuthMethods {
           password.isNotEmpty ||
           username.isNotEmpty ||
           bio.isNotEmpty ||
-          file != null) {
+      file != null) {
         // registering user in auth with email and password
         UserCredential cred = await _auth.createUserWithEmailAndPassword(
           email: email,
@@ -38,7 +38,8 @@ class AuthMethods {
         );
 
         String photoUrl =
-        await StorageMethods().uploadImageToStorage('profilePics', file, false);
+        await StorageMethods().uploadImageToStorage(
+            'profilePics', file, false );
 
         model.User user = model.User(
           username: username,

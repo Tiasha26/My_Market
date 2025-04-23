@@ -48,10 +48,12 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Photo Library Usage</string>
+	<string>This app needs access to photo library to select images for organization submissions.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Camera Usage</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Mic Usage</string>
+	<string>This app needs access to camera to take photos for organization submissions.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to location when open to show your current location on the map.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs access to location when in the background to show your current location on the map.</string>
 </dict>
 </plist>

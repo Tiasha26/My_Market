@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:my_market/pages/add_post.dart';
 import 'package:my_market/pages/home.dart';
-import 'package:my_market/pages/donate.dart';
 import 'package:my_market/pages/account.dart';
-import 'package:my_market/pages/customers.dart';
-import 'package:my_market/pages/news.dart';
+import 'package:my_market/pages/search.dart';
+import 'package:my_market/pages/donate.dart';
 
 class WebScreenLayout extends StatefulWidget {
   const WebScreenLayout({super.key});
@@ -24,9 +24,11 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
 
   final List<Widget> _pages = [
     Home(),
+    SearchScreen(),
+    AddPost(),
     Donate(),
-    News(),
-    Customers(),
+    // News(),
+    // Customers(),
     Account(uid: FirebaseAuth.instance.currentUser!.uid),
   ];
 
@@ -40,12 +42,17 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
         items: const [
           BottomNavigationBarItem(
               icon: Icon(Icons.home_rounded), label: 'Home'),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.search), label: 'Search'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.monetization_on), label: 'Donate'),
+              icon: Icon(Icons.add), label: 'Add Post'),
+          
           BottomNavigationBarItem(
-              icon: Icon(Icons.newspaper_rounded), label: 'News'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.groups), label: 'Customers'),
+             icon: Icon(Icons.monetization_on), label: 'Donate'),
+          // BottomNavigationBarItem(
+          //     icon: Icon(Icons.newspaper_rounded), label: 'News'),
+          // BottomNavigationBarItem(
+          //     icon: Icon(Icons.groups), label: 'Customers'),
           BottomNavigationBarItem(
               icon: Icon(Icons.account_circle), label: 'Profile')
         ],

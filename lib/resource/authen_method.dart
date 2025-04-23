@@ -30,12 +30,15 @@ class AuthMethods {
           password.isNotEmpty ||
           username.isNotEmpty ||
           bio.isNotEmpty ||
-      file != null) {
+      // ignore: unnecessary_null_comparison
+      file != null
+       ) {
         // registering user in auth with email and password
         UserCredential cred = await _auth.createUserWithEmailAndPassword(
           email: email,
           password: password,
         );
+        print(cred.user!.uid);
 
         String photoUrl =
         await StorageMethods().uploadImageToStorage(
@@ -51,7 +54,7 @@ class AuthMethods {
 
         // adding user in our database
         await _firestore
-            .collection("users")
+            .collection('users')
             .doc(cred.user!.uid)
             .set(user.toJson());
 
@@ -87,6 +90,21 @@ class AuthMethods {
     }
     return res;
   }
+
+Future<void> resetPassword({required String email}) async {
+    await _auth.sendPasswordResetEmail(email: email);
+
+}
+
+Future<void> updateUserData(model.User user) async {
+    await  _firestore.collection('users').doc(user.uid).update({
+      'username': user.username,
+      'email': user.email,
+      'bio': user.bio,
+      'photoUrl': user.photoUrl
+    });
+
+}
 
   Future<void> signOut() async {
     await _auth.signOut();

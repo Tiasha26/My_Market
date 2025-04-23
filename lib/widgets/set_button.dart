@@ -7,13 +7,13 @@ class SetButton extends StatelessWidget {
   final String text;
   final Color textColor;
   const SetButton({
-    Key? key,
+    super.key,
     required this.backgroundColor,
     required this.borderColor,
     required this.text,
     required this.textColor,
     this.function
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class SetButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(5),
           ),
           alignment: Alignment.center,
-          width: 250,
+          width: 150,
           height: 27,
           child: Text(
             text,

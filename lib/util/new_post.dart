@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_market/widgets/cached_image.dart';
 
 class Gallery extends StatelessWidget {
   const Gallery({super.key});
@@ -84,152 +85,136 @@ class Gallery extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 crossAxisCount: 4,
                 children: const [
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
-                    fit: BoxFit.fill,
-                  ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
-                    fit: BoxFit.fill,
-                  ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
-                    fit: BoxFit.fill,
-                  ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
-                    fit: BoxFit.fill,
-                  ),
-                  Image(
-                    image: NetworkImage('https://picsum.photos/seed/825/600'),
+                  CachedImage(
+                    imageUrl: 'https://picsum.photos/seed/825/600',
                     fit: BoxFit.fill,
                   ),
                 ],
